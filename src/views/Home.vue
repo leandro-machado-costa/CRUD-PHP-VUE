@@ -105,7 +105,7 @@ export default {
       { text: "Preço de Venda", value: "price_sales" },
       { text: "Ações", value: "actions", sortable: false },
     ],
-    produtos: [],
+    products: [],
     editedIndex: -1,
     editedItem: {
       product_name: "",
