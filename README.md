@@ -1,3 +1,6 @@
+
+## Para instalar a aplicação é preciso na pasta backend rodar o script  SQL banco MySQL, alterar os dados de configuração no db.php e src\plugins\axios.js
+
 # crud-php
 
 ## Project setup
