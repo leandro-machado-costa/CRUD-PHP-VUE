@@ -152,7 +152,7 @@ export default {
     },
 
     deleteItem(item) {
-      this.editedIndex = this.produtos.indexOf(item);
+      this.editedIndex = this.products.indexOf(item);
       this.editedItem = Object.assign({}, item);
       this.dialogDelete = true;
     },
@@ -184,7 +184,6 @@ export default {
     },
 
     save() {
-      console.log(this.editedItem);
       this.editedItem.price_buy = this.editedItem.price_buy.replace(",", ".");
       if (this.editedItem.id) {
         this.$http
